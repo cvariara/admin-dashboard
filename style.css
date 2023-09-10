@@ -201,7 +201,7 @@ ul li img {
 .projects .project {
   background-color: white;
   border-radius: 8px;
-  height: 200px;
+  min-height: 200px;
   display: grid;
   grid-template-columns: 10px auto;
   grid-template-rows: 4fr auto;
@@ -276,10 +276,6 @@ ul li img {
 
 .announcement p {
   color: gray;
-}
-
-.trending {
-
 }
 
 .trends {
